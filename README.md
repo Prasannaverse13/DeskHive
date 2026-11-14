@@ -3,7 +3,6 @@
 **An office building full of AI agents on your desk. Look in from above, see them work, and just talk to them.**
 
 Built for the Meta VR Start Developer Competition 2026 (Productivity track, Best Agentic Interaction). Runs on Meta's own stack: WebXR on Quest, **free Llama on your laptop** as the default agent brain, and Meta Muse Spark plus Muse Voice Transcribe when you have a Meta key. The whole thing can run at zero cost.
-Inspired by the open source [Munder Difflin](https://github.com/HarnessMD/munder-difflin) agent harness. DeskHive is a clean rebuild with its own crew, its own code, and a new core idea: **the office is a seated, hands-first diorama in VR.**
 
 ## The core idea
 
@@ -240,5 +239,4 @@ test/       engine, brain and voice tests (npm test)
 
 ## Credits
 
-Idea inspired by Munder Difflin by HarnessMD (MIT). No code or art from that project is used here.
 Built with Three.js and Meta's Immersive Web Emulator (iwer).
