@@ -1124,7 +1124,7 @@ async function enterXR(mode) {
   voiceCtl.unlockAudio();
   if (!navigator.xr) return overlay.toast('WebXR is not available here. Open this page on your headset, or add ?emu to the URL.');
   const ok = await navigator.xr.isSessionSupported(mode).catch(() => false);
-  if (!ok) return overlay.toast(mode === 'immersive-ar' ? 'Passthrough is not supported here. Try VR.' : 'VR is not supported here.');
+  if (!ok) return overlay.toast(mode === 'immersive-ar' ? 'Passthrough is not supported here. On a laptop add ?emu to the link to try the Meta emulator.' : 'No headset found. On a laptop add ?emu to the link to try the Meta emulator.');
   let session;
   try {
     session = await navigator.xr.requestSession(mode, { optionalFeatures: ['local-floor', 'hand-tracking', 'plane-detection', 'anchors'] });
