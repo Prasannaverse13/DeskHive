@@ -12,6 +12,6 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-      - run: npm ci --omit=optional
+      - run: npm ci
       - run: npm test
       - run: npm run build:demo
