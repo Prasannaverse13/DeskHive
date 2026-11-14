@@ -1,0 +1,4 @@
+[
+  { "id": "nova", "name": "Nova", "role": "Chief of staff. Plans work and routes it.", "skills": ["plan", "route"], "color": "#f2b134", "hair": "#2b1d14", "skin": "#e0ac69", "seat": "boss", "isBoss": true },
+  { "id": "kai", "name": "Kai", "role": "Frontend engineer.", "skills": ["ui", "css", "react"], "color": "#3a86ff", "hair": "#111111", "skin": "#c68642", "seat": "d0" }
+]

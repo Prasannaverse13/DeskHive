@@ -1,0 +1,34 @@
+{
+  "name": "deskhive",
+  "version": "0.3.0",
+  "private": true,
+  "description": "A tiny AI agent office on your desk. Walk the floor, talk to your agents, hands only. Built for Meta VR glasses and Quest.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server/index.js --dev",
+    "start": "node server/index.js",
+    "build": "vite build",
+    "build:demo": "vite build --mode demo",
+    "preview": "vite preview",
+    "test": "node --test test/floor.test.js test/brains.test.js test/voice.test.js"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "selfsigned": "2.4.1",
+    "three": "0.180.0",
+    "ws": "8.18.3"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "0.68.0",
+    "@huggingface/transformers": "4.3.2"
+  },
+  "devDependencies": {
+    "@iwer/devui": "2.8.0",
+    "@iwer/sem": "^2.8.0",
+    "iwer": "2.8.0",
+    "vite": "7.1.12"
+  }
+}

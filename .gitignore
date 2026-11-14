@@ -1,0 +1,9 @@
+node_modules/
+dist/
+hive/
+workspace/
+.cert/
+*.log
+deskhive.config.json
+.models/
+crew.json
