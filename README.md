@@ -18,6 +18,16 @@ You read the room at a glance:
 | Hop and cheer, green check | Done |
 | Envelope flying desk to desk | Agents messaging each other |
 
+## Screenshots
+
+Captured in the Meta Immersive Web Emulator with its synthetic room.
+
+| | |
+| --- | --- |
+| ![Office snapped onto the real desk](docs/img/shots/desk-passthrough.jpg)<br>**Passthrough.** The office snaps onto the real desk. | ![Top down view of the office](docs/img/shots/office-topdown.jpg)<br>**Look in from above.** Seven agents, one floor. |
+| ![Raised hand on Zara and Leo panel](docs/img/shots/raised-hand.jpg)<br>**Raised hand.** Red ring and "!" mean an agent needs your yes. | ![Office level perks](docs/img/shots/level-perks.jpg)<br>**Come back loop.** Level ups unlock a neon sign, garden and more. |
+| ![Full VR city](docs/img/shots/vr-city.jpg)<br>**Full VR.** The office gets its own little city. | |
+
 ## Talk to your agents
 
 You talk the way you would in a real office.
