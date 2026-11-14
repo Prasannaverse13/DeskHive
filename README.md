@@ -113,6 +113,23 @@ No controller needed at any step.
 
 Full diagrams (spoken request, raised hand, real desk pipeline) are in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). The hackathon requirement checklist is in [docs/HACKATHON.md](docs/HACKATHON.md).
 
+## Use it on Quest 3
+
+1. Put on the headset and open the Meta Quest Browser.
+2. Open the link: https://prasannaverse13.github.io/DeskHive/
+3. Press **Enter passthrough** for your real room. Or press **Enter VR** for the full VR city.
+4. Allow hand tracking if the browser asks. Allow the microphone if you want to talk.
+5. Look at your table. The office snaps onto it. Pinch to move it if you want it somewhere else.
+
+Then use your hands only:
+
+- Pinch a task card and drop it on a desk.
+- Poke buttons with your fingertip.
+- Say a name like "Kai, how is it going?" or just look at someone and talk.
+- When an agent raises a hand, say yes or no.
+
+No install and no keys are needed for the scripted demo crew. On a laptop, add `?emu` to the link to try it in the Meta Immersive Web Emulator.
+
 ## Run it (Windows, Mac, Linux)
 
 Needs Node 20.19 or newer.
